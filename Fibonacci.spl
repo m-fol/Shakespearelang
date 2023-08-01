@@ -1,0 +1,61 @@
+The Fibonacci Calculations, a play in two acts that needs some improvement.
+
+Romeo, one of the Fibonacci numbers and the previous one.
+Juliet, the second Fibonacci number.
+Ophelia, the loop and variable controller.
+Macbeth, the king utilized as a space and as the end of the loop.
+
+
+			Act I: The Fibonacci Calculation.
+
+		Scene I: The Initialization of a Helpful Variable.
+
+[Enter Ophelia and Macbeth]
+
+Ophelia:
+ Thou art as pretty as a beautiful fair peaceful sunny warm summer's day!
+
+[Exit Macbeth]
+[Enter Romeo]
+
+Ophelia:
+  Open your heart!
+  You animal.
+
+[Exit Romeo]
+[Enter Macbeth]
+
+Ophelia:
+ Speak your mind!
+
+			Scene II: The Start of the Loop.
+
+[Exit Macbeth]
+[Enter Juliet]
+
+Ophelia:
+  Thou art as pretty as the sum of yourself and Romeo!
+  Open your heart!
+
+[Exit Juliet]
+[Enter Romeo]
+
+Ophelia:
+ Thou art as brave as the difference between Juliet and thyself!
+
+[Exit Romeo]
+[Enter Macbeth]
+
+Ophelia:
+ Speak your mind!
+
+Macbeth:
+ Thou art as pretty as the sum of thyself and a horse!
+
+Ophelia:
+ Am I not better than yourself?
+
+Macbeth:
+ If so, let us proceed to scene II.
+
+[Exeunt]
