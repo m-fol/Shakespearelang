@@ -56,6 +56,8 @@ Act 1: Initialization
 
 ```
 
+> Remember! It's not necessary for a character to **exit** when a scene or an act ends!
+
 ## Entering, exiting and "exeunting" (is that a word?) Variables
 In a Shakespeare-inspired programming language like SPL, the concepts of "Entering," "Exiting," and "Exeunting" are used to describe the introduction, conclusion, and termination of characters (variables) in the script. These terms add a theatrical and literary flair to the process of managing variables within the program.
 
@@ -167,6 +169,14 @@ Hamlet:
 
 Here, if the value of Juliet > Value of Hamlet, then the program goes to the start of the third scene. The use of acts and scenes is incredibly useful in situations where decisions on the looping or the general flow of the code need to be taken.
 
+You can compare variables with words, to check for a specific value.
+
+```shakespeare
+Juliet: Am I better than a sunny beautiful day?
+```
+
+In this comparison, we are checking if Juliet's value is higher than the number 2. Day is a neutral word, considered +0.
+
 ## Setting values
 In SPL, setting values for variables is a crucial aspect of programming, and it's expressed in a manner reminiscent of assigning roles or attributes to characters in a Shakespearean play. Let's explore how setting values is achieved in SPL.
 
@@ -210,7 +220,7 @@ SPL supports basic arithmetic operations such as addition, subtraction, multipli
 #### Syntax:
 
 ```shakespeare
-<VariableName>: Thou art the sum/product/difference/quotient of <Expression>.
+<VariableName>: Thou art the sum/difference/square root of <Expression>.
 ```
 
 #### Example:
@@ -261,19 +271,8 @@ Here, the value associated with Juliet is set to be the square root of her value
 
 ### Division:
 
-Division in SPL is portrayed as characters sharing or separating from one another, creating a sense of connection or disconnection.
+Shakespeare Programming Language (SPL) does not have a native division operation. If you need to achieve division-like behavior in SPL, you would typically have to create a narrative or a sequence of events that mimics the desired mathematical operation. 
 
-#### Syntax:
-
-```shakespeare
-<VariableName>: Thou art the quotient of <Variable1> and <Variable2>.
-```
-
-#### Example:
-
-```shakespeare
-Romeo: Thou art the quotient of Juliet and a cat.
-```
 ## Input and Output
 
 In SPL, handling input and output is an integral part of the script, adding a dramatic dimension to the interaction between characters (variables) and the external world. The language employs a storytelling approach to depict the exchange of information within the program.
@@ -325,13 +324,40 @@ Outputting information in SPL is portrayed as characters expressing their though
 
 Here, the other character in the scene, Romeo, is prompted to speak his mind, representing the output of his value.
 
-## Pushing and Pulling in Characters' Stacks
+## Popping and Pushing in Characters' Stacks
 In this programming language, each character is considered a stack. The concept of "remember thyself" could be implemented as a mechanism for variables (characters) to retain or recall their own values. This phrase adds a dramatic touch to the act of self-reference within the code.
 
-### Pulling - *Remember Thyself*
+### Pushing - *Remember Thyself*
 
+In SPL, 'Remember thyself/yourself' allows to assign value to a character, by pushing that value into their 'stack'.
 
-### Pushing - *Speak Thy Value*
+```shakespeare
+[Enter Othello and Lady Macbeth]
+
+Othello:
+ You are nothing!
+
+                    Scene II: Pushing to the very end.
+
+Lady Macbeth:
+ Open your mind! Remember yourself.
+```
+
+The last line specifically allows to read from the command line and assign the value to Othello, pushing it in the stack of values he has. Normally, as to how a stack behaves, the last value would be the one to be printed when 'popped'.
+
+### Popping - *Speak Thy Value*
+
+In Shakespeare Programming Language (SPL), you can use the phrase "Speak thy mind!" to instruct a character to reveal or speak their current thoughts or values. Here's an example:
+
+```shakespeare
+Scene I: The revelation.
+
+[Enter Hamlet and Romeo]
+
+Hamlet: Speak thy mind!
+```
+
+In this example, Romeo's value is printed on the screen.
 
 
 ## You can check code I've written, executed in an online SPL compiler:
