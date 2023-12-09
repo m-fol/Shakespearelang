@@ -139,7 +139,7 @@ Shakespeare Programming Language uses a unique syntax that is inspired by the st
 
   Both phrases increment Juliet's value.
 
-1. **Decrease Variable:**
+2. **Decrease Variable:**
    To decrease a variable, you can follow the previous syntax, but use words considered as insults along with the keyword "difference". The number of insults indicates the amount by which the variable should be decreased. Here's two possible examples:
 
    ```shakespeare
