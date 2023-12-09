@@ -131,11 +131,11 @@ Shakespeare Programming Language uses a unique syntax that is inspired by the st
    Romeo: You are as sweet as the sum of yourself and a cat!
    ```
    In this example, the value of Juliet would be increased by the sum of the current value of herself and one.
-  ###Or:
+   ### Or:
 
-  ```
-  Romeo: You sweet beautiful fair warm peaceful sunny summer's day!
-  ```
+   ```
+   Romeo: You sweet beautiful fair warm peaceful sunny summer's day!
+   ```
 
   Both phrases increment Juliet's value.
 
