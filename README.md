@@ -157,7 +157,7 @@ Remember that ShakespeareLang is more about the dramatic structure and less abou
 
 A sentence like ''Let us return to scene III'' means simply ''goto scene III''. Instead of ''let us'', you may use ''we shall'' or ''we must'', and instead of ''return to'', you may use ``proceed to''. If you specify a scene, it refers to that scene in the current act. There is no way to refer to a specific scene in another act - you have to settle for jumping to the act itself.
 
-###Looping example:
+### Looping example:
 ```shakespeare
 Juliet:
  Am I better than you?
